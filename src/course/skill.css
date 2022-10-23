@@ -1,0 +1,6 @@
+.percentage {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
