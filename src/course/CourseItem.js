@@ -13,7 +13,7 @@ function CourseItem({ name, link, img, skillsLearned }) {
   const card = (
     <Card>
       <CardContent>
-        <Typography variant="h5" component="div">
+        <Typography fontSize={"1.5rem"} component="div">
           {name}
         </Typography>
         <Typography variant="body2">

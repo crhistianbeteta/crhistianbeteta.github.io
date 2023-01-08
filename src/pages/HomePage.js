@@ -8,11 +8,12 @@ import Container from "@mui/material/Container";
 
 export default function HomePage() {
   const navigate = useNavigate();
-  return (
-    <>
+  return (<>
+    <header>
       <Container>
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Avatar
+            alt="Fotografía de Crhistian Beteta Navarro"
             src="/me.jpg"
             sx={{ width: "200px !important", height: "200px !important" }}
           />
@@ -22,7 +23,8 @@ export default function HomePage() {
           Crhistian Beteta
         </Typography>
       </Container>
-
+    </header>
+    <main>
       <Box
         justifyContent={"center"}
         sx={{
@@ -41,14 +43,14 @@ export default function HomePage() {
               navigate("/professional-experience");
             }}
           >
-            <Typography variant="h5">Experiencia profesional</Typography>
+            <Typography fontSize={"1.5rem"}>Experiencia profesional</Typography>
           </Button>
           <Button
             onClick={() => {
               navigate("/skills");
             }}
           >
-            <Typography variant="h5">Habilidades</Typography>
+            <Typography fontSize={"1.5rem"}>Habilidades</Typography>
           </Button>
 
           <Button
@@ -56,7 +58,7 @@ export default function HomePage() {
               navigate("/courses");
             }}
           >
-            <Typography variant="h5">Cursos</Typography>
+            <Typography fontSize={"1.5rem"}>Cursos</Typography>
           </Button>
 
           <Button
@@ -64,10 +66,11 @@ export default function HomePage() {
               navigate("/academic-background");
             }}
           >
-            <Typography variant="h5">Formación</Typography>
+            <Typography fontSize={"1.5rem"}>Formación</Typography>
           </Button>
         </ButtonGroup>
       </Box>
-    </>
+    </main>
+  </>
   );
 }

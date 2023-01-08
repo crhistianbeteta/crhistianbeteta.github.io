@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import SkillListItem from "./SkillListItem";
 import { Divider, Typography } from "@mui/material";
-import "animate.css";
 
 function SkillList({ title, skillList }) {
   return (

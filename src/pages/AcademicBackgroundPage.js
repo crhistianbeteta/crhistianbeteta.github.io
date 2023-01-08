@@ -5,7 +5,7 @@ import { Box, Typography } from "@mui/material";
 export default function AcademicBackgroundPage() {
   return (
     <>
-      <Box className="animate__animated animate__fadeIn animate__slow">
+      <Box>
         <Typography variant="h2" gutterBottom>
           Formación
         </Typography>

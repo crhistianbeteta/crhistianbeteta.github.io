@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import CourseItem from "./CourseItem";
-import "animate.css";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 
-function CourseList({ title, courses }) {
+function CourseList({ courses }) {
   return (
     <>
       <div>

@@ -34,7 +34,7 @@ export default function AcademicBackgroundTimeline() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography variant="h5" style={{ fontWeight: 600 }}>
+              <Typography fontSize={"1.5rem"} style={{ fontWeight: 600 }}>
                 {event.title} ({event.beginYear} - {event.endYear})
               </Typography>
               <hr></hr>

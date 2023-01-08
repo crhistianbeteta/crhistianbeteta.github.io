@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 
 export default function CoursesPage() {
   return (
-    <Box className="animate__animated animate__fadeIn animate__slow">
+    <Box>
       <Typography variant="h2" gutterBottom>
         Cursos
       </Typography>

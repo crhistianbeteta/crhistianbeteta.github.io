@@ -16,7 +16,7 @@ export default function ProfesionalExperiencePage() {
           <Card variant="outlined" sx={{ mb: 1 }}>
             <CardContent>
               <p>{calculateTime(experience.beginDate, experience.endDate)}</p>
-              <Typography variant="h5" component="div">
+              <Typography fontSize={"1.5rem"} component="div">
                 {experience.companyName}
               </Typography>
               <Typography variant="h6" sx={{ fontWeight: "light" }}>
