@@ -1,15 +1,15 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./skill.css";
 import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import PropTypes from "prop-types";
+import React from "react";
 import StyledChip from "../components/styledComponents/StyledChip";
+import "./skill.css";
 
-function CourseItem({ name, link, img, skillsLearned }) {
+function CourseItem({ name, skillsLearned }) {
   const card = (
     <Card>
       <CardContent>
