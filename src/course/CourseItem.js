@@ -1,7 +1,5 @@
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import PropTypes from "prop-types";
@@ -24,9 +22,6 @@ function CourseItem({ name, skillsLearned }) {
           </Box>
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Ir al curso</Button>
-      </CardActions>
     </Card>
   );
 
