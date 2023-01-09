@@ -49,7 +49,6 @@ export const courses = [
   {
     name: "Master Javascript",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: [
       "JAVASCRIPT",
       "JQUERY",
@@ -63,45 +62,38 @@ export const courses = [
   {
     name: "Curso Unity 2D",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["UNITY", "C#"],
   },
   {
     name: "Curso Diseño WEB",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["HTML5", "CSS", "JAVASCRIPT", "JQUERY", "NODEJS"],
   },
 
   {
     name: "React: De cero a experto ( Hooks y MERN )",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["HTML5", "CSS", "JAVASCRIPT", "REACT", "HOOKS"],
   },
   {
     name: "Introducción al desarrollo backend con Node.js y Express",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["NODEJS", "EXPRESS"],
   },
   {
     name: "Angular: De cero a experto",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["NODEJS", "EXPRESS"],
   },
   {
     name: "Angular Avanzado:  Lleva tus bases al siguiente nivel - MEAN",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["NODEJS", "EXPRESS"],
   },
 
   {
     name: "Guía compelta JUnit y Mockito incluye Spring Boot Test 2022",
     link: "",
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.batiburrillo.net%2Fampliacion-de-imagen-en-linea-sin-perder-calidad%2F&psig=AOvVaw0aED8xzyInTuUR_haW-45U&ust=1641558943657000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiRu-KRnfUCFQAAAAAdAAAAABAJ",
     skillsLearned: ["NODEJS", "EXPRESS"],
   },
 ];

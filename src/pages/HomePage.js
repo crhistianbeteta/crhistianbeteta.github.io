@@ -15,11 +15,11 @@ export default function HomePage() {
           <Avatar
             alt="Fotografía de Crhistian Beteta Navarro"
             src="/me.jpg"
-            sx={{ width: "200px !important", height: "200px !important" }}
+            sx={{ width: "175px !important", height: "175px !important" }}
           />
         </Box>
 
-        <Typography align="center" variant="h1" gutterBottom>
+        <Typography align="center" variant="h1" >
           Crhistian Beteta
         </Typography>
       </Container>
@@ -43,14 +43,14 @@ export default function HomePage() {
               navigate("/professional-experience");
             }}
           >
-            <Typography fontSize={"1.5rem"}>Experiencia profesional</Typography>
+            <Typography sx={{ fontSize: { xs: "1rem", md: "1.5rem" }}}>Experiencia profesional</Typography>
           </Button>
           <Button
             onClick={() => {
               navigate("/skills");
-            }}
+            }} 
           >
-            <Typography fontSize={"1.5rem"}>Habilidades</Typography>
+            <Typography sx={{ fontSize: { xs: "1rem", md: "1.5rem" }}}>Habilidades</Typography>
           </Button>
 
           <Button
@@ -58,7 +58,7 @@ export default function HomePage() {
               navigate("/courses");
             }}
           >
-            <Typography fontSize={"1.5rem"}>Cursos</Typography>
+            <Typography sx={{ fontSize: { xs: "1rem", md: "1.5rem" }}}>Cursos</Typography>
           </Button>
 
           <Button
@@ -66,7 +66,7 @@ export default function HomePage() {
               navigate("/academic-background");
             }}
           >
-            <Typography fontSize={"1.5rem"}>Formación</Typography>
+            <Typography sx={{ fontSize: { xs: "1rem", md: "1.5rem" }}}>Formación</Typography>
           </Button>
         </ButtonGroup>
       </Box>

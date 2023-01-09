@@ -33,8 +33,8 @@ function App() {
           <div>
             <NavBar></NavBar>
           </div>
-          <Background style={{ padding: "1rem", display: "flex", marginTop:"56px"}}>
-            <React.Suspense fallback={<><Spinner/></>}>
+          <Background>
+            <React.Suspense fallback={<><Spinner /></>}>
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route

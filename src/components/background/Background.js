@@ -5,7 +5,7 @@ import { Container, Paper } from "@mui/material";
 
 const Background = ({ children }) => {
   return (
-    <Paper style={{ minHeight: "100vh", borderRadius: 0, marginTop:"56px" }}>
+    <Paper style={{ minHeight: "100vh", borderRadius: 0, paddingTop: "5rem" }}>
       <Box sx={{ padding: "1rem" }}>
         <Container>
           <div>{children}</div>
