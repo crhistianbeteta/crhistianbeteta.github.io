@@ -1,10 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Box from "@mui/material/Box";
-import { Avatar, ButtonGroup } from "@mui/material";
+import { Avatar, ButtonGroup, Link } from "@mui/material";
 import Button from "@mui/material/Button";
 import { Typography } from "@mui/material";
 import Container from "@mui/material/Container";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import EmailIcon from '@mui/icons-material/Email';
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -25,6 +28,17 @@ export default function HomePage() {
       </Container>
     </header>
     <main>
+      <Box sx={{ display:"flex", gap:"1rem"}} justifyContent={"center"} >
+        <Link color="#0e76a8"  href="https://www.linkedin.com/in/crhistian-beteta-navarro" underline="none" target="_blank" rel="noopener">
+           <LinkedInIcon  fontSize="large" /> 
+        </Link>
+        <Link color="#1DA1F2" href="https://twitter.com/Crhistian1797" underline="none" target="_blank" rel="noopener">
+           <TwitterIcon  fontSize="large" /> 
+        </Link>
+        <Link color="#EA4335" href="mailto:crhistianbetetanavarro@gmail.com" underline="none" target="_blank" rel="noopener">
+           <EmailIcon  fontSize="large" /> 
+        </Link>
+      </Box>
       <Box
         justifyContent={"center"}
         sx={{
