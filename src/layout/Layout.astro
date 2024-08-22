@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import NavBar from "../components/NavBar.astro";
 import "../styles/global.css";
 const { currentLocale } = Astro;
@@ -6,16 +7,51 @@ const { currentLocale } = Astro;
 
 <html lang={currentLocale} class="h-full dark">
     <head>
-        <meta charset="utf-8" />
+        <SEO
+            charset="utf-8"
+            title="Crhistian Beteta Navarro"
+            description="Crhistian Beteta Navarro, graduado en Ingeniería Informática por la Universidad de Castilla-La Mancha"
+            openGraph={{
+                basic: {
+                    title: "Crhistian Beteta Navarro",
+                    type: "image/png",
+                    image: "https://crhistianbeteta.github.io/me.png",
+                },
+            }}
+            twitter={{
+                creator: "@Crhistian1797",
+            }}
+            extend={{
+                // extending the default link tags
+                link: [{ rel: "icon", href: "/logo.png" }],
+                // extending the default meta tags
+                meta: [
+                    {
+                        name: "twitter:image",
+                        content: "https://crhistianbeteta.github.io/me.png",
+                    },
+                    {
+                        name: "twitter:title",
+                        content: "Crhistia Beteta Navarro",
+                    },
+                    {
+                        name: "twitter:description",
+                        content: "Ingeniero informático",
+                    },
+                ],
+            }}
+        />
         <link rel="icon" type="image/svg+xml" href="/logo.png" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
+        <meta
+            name="keywords"
+            content="software, programación, Crhistian, Beteta Navarro, Ingeniería Informática"
+        />
         <script
             is:inline
             src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"
         ></script>
-
-        <title>Crhistian Beteta</title>
     </head>
 
     <body>

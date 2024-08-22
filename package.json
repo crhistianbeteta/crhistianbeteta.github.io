@@ -16,6 +16,7 @@
     "astro": "^4.11.5",
     "astro-color-scheme": "^1.1.5",
     "astro-robots-txt": "^1.0.0",
+    "astro-seo": "^0.8.4",
     "flowbite": "^2.4.1",
     "typescript": "^5.5.3"
   },
