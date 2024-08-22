@@ -27,7 +27,16 @@ export default defineConfig({
     defaultLocale: "en",
     locales: ["es", "en"]
   },
-  integrations: [tailwind(), sitemap(), robotsTxt()]
+  integrations: [tailwind(), sitemap({
+    i18n: {
+      defaultLocale: 'es', // All urls that don't contain `es` or `fr` after `https://stargazers.club/` will be treated as default locale, i.e. `en`
+      locales: {
+        en: 'en', // The `defaultLocale` value must present in `locales` keys
+        es: 'es',
+      },
+    }
+  })
+    , robotsTxt()]
 });
 /* istanbul ignore next */ /* c8 ignore start */ /* eslint-disable */
 ;
