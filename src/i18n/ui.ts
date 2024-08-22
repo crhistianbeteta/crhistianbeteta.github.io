@@ -27,8 +27,9 @@ export const ui = {
         'academicbackground.degree.title': "Degree in computer engineering",
         'academicbackground.degree.description': `The studies were carried out at the ESI (University of Castilla-La Mancha), covering a variety of topics such as virtual reality, containerisation, high-performance computing and project management. However, the main emphasis was on quantum computing, a topic explored in the Master's thesis, which received the highest grade.`,
         'academicbackground.highschool.title': 'High School',
-        'academicbackground.highschool.description': 'I studied at I.E.S. Estados del Duque. I had always liked the subjects of mathematics, physics and computer science. For this reason, I became very curious about the world of information technologies and I decided to go deeper into this world.'
-
+        'academicbackground.highschool.description': 'I studied at I.E.S. Estados del Duque. I had always liked the subjects of mathematics, physics and computer science. For this reason, I became very curious about the world of information technologies and I decided to go deeper into this world.',
+        'footer.all_right_reserved': "All Rights Reserved.",
+        'footer.sitemap': "Sitemap"
 
     },
     es: {
@@ -49,6 +50,8 @@ export const ui = {
         'academicbackground.degree.title': "Grado en Ingeniería informática",
         'academicbackground.degree.description': `Cursado en la Escuela Superior de Informática de la Universidad de Castilla-La Mancha. La intensificación escogida fue la de Tecnologías de la Información. En esta etapa, me gustaría destacar la obtención de la matrícula de honor en mi trabajo fin de grado (TFG): Asistente virtual para onboarding y soporte a empleados.`,
         'academicbackground.highschool.title': 'Bachillerato',
-        'academicbackground.highschool.description': `Cursado en I.E.S Estados del Duque. Siempre me habían gustado mucho las asignaturas de matemáticas, física e informática. Por este motivo, me entró mucha curiosidad por el mundo de las tecnologías de información y decidí adentrarme más en ese mundo.`
+        'academicbackground.highschool.description': `Cursado en I.E.S Estados del Duque. Siempre me habían gustado mucho las asignaturas de matemáticas, física e informática. Por este motivo, me entró mucha curiosidad por el mundo de las tecnologías de información y decidí adentrarme más en ese mundo.`,
+        'footer.all_right_reserved': "Todos los derechos reservados",
+        'footer.sitemap': "Mapa del sitio"
     },
 } as const;
