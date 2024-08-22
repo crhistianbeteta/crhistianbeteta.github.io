@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
+
+
 const SERVER_PORT = 3000;
 const LOCALHOST = `http://localhost:${SERVER_PORT}`;
 const LIVE_URL = "https://github.com/crhistianbeteta/crhistianbeteta.github.io";
