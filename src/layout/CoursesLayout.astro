@@ -1,0 +1,15 @@
+---
+import CourseCard from "../components/courses/CourseCard.astro";
+import { courses } from "../components/courses/data/Courses";
+import Layout from "./Layout.astro";
+---
+
+<Layout>
+    <section class="flex flex-col gap-2 p-2 items-center">
+        {
+            courses.map((c) => (
+                <CourseCard title={c.name} skillsLearned={c.skillsLearned} />
+            ))
+        }
+    </section>
+</Layout>

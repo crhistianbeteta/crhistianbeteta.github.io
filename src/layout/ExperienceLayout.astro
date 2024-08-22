@@ -1,0 +1,19 @@
+---
+import { professionalExperience } from "../components/experience/data/ProfessionalExperience";
+import ExperienceCard from "../components/experience/ExperienceCard.astro";
+import Layout from "./Layout.astro";
+---
+
+<Layout>
+    <section class="flex flex-col gap-2 p-2 items-center">
+        {
+            professionalExperience.map((p) => (
+                <ExperienceCard
+                    title={p.companyName}
+                    jobPosition={p.jobPosition}
+                    technologies={p.technologies}
+                />
+            ))
+        }
+    </section>
+</Layout>

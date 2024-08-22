@@ -1,0 +1,11 @@
+---
+import { skills } from "../components/skills/data/Skills";
+import SkillCard from "../components/skills/SkillCard.astro";
+import Layout from "./Layout.astro";
+---
+
+<Layout>
+    <section class="flex flex-col gap-2 p-2 items-center">
+        {skills.map((s) => <SkillCard title={s.title} items={s.items} />)}
+    </section>
+</Layout>

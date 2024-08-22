@@ -1,0 +1,33 @@
+---
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+
+interface Item {
+    name: string;
+}
+interface Props {
+    title: string;
+    items: Item[];
+}
+
+const { title, items } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div
+    class="block w-2/3 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+>
+    <h5
+        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+        {t(title as any)}
+    </h5>
+
+    {
+        items.map((i) => (
+            <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">
+                {i.name}
+            </span>
+        ))
+    }
+</div>
