@@ -13,7 +13,14 @@ export const ui = {
         'nav.courses': 'Courses',
         'nav.education': 'Academic background',
         'nav.skills': 'Skills',
-        'home.computer_engineer': "Computer Engineer",
+        'home.description': [
+            "I build full-stack web solutions that balance clarity, performance, and maintainability.",
+            "I'm interested in creating software that grows with the product, without getting in the way.",
+            "I work to make frontend and backend speak the same language, so the team can move confidently over what we build."
+        ],
+        'home.contactme': 'Contact me!',
+        'home.currently': 'Currently:',
+        'home.currentposition': "Senior Software Engineer at DocPath",
         'skills.programming.title': 'Programming',
         'skills.office.title': 'Office',
         'skills.os.title': 'Operating systems',
@@ -30,7 +37,6 @@ export const ui = {
         'academicbackground.highschool.description': 'I studied at I.E.S. Estados del Duque. I had always liked the subjects of mathematics, physics and computer science. For this reason, I became very curious about the world of information technologies and I decided to go deeper into this world.',
         'footer.all_right_reserved': "All Rights Reserved.",
         'footer.sitemap': "Sitemap"
-
     },
     es: {
         'nav.home': 'Inicio',
@@ -38,7 +44,14 @@ export const ui = {
         'nav.courses': 'Cursos',
         'nav.education': 'Formación',
         'nav.skills': 'Habilidades',
-        'home.computer_engineer': "Ingeniero informático",
+        'home.description': [
+            "Desarrollo soluciones web completas que equilibran claridad, rendimiento y mantenibilidad.",
+            "Me interesa construir software que crezca junto al producto, sin convertirse en un obstáculo.",
+            "Trabajo para que el frontend y el backend hablen el mismo idioma, y el equipo pueda avanzar con confianza sobre lo que construimos."
+        ],
+        'home.contactme': '¡Contacta conmigo!',
+        'home.currently': 'Actualmente:',
+        'home.currentposition': "Ingeniero Software Senior en DocPath",
         'skills.programming.title': 'Programación',
         'skills.office.title': 'Office',
         'skills.os.title': 'Sistemas operativos',

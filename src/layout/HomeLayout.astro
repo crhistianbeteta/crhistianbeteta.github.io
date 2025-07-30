@@ -8,32 +8,77 @@ const t = useTranslations(lang);
 
 <Layout>
     <section>
-        <div
-            class="flex flex-col md:flex-row justify-center items-center p-5 h-full"
-        >
-            <div
-                class="order-1 w-full md:order-2 flex justify-center items-center"
-            >
-                <img
-                    src="/me.png"
-                    class="drop-shadow-md w-[50%] lg:w-[70%] main-image"
-                    alt="Crhistian Beteta"
-                />
-            </div>
-
-            <div
-                class="order-2 w-full md:order-1 flex flex-col justify-center items-center"
-            >
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 pt-6 px-10">
+            <!-- Texto -->
+            <div class="md:col-span-8">
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-white"
                 >
                     Crhistian Beteta
                 </h1>
-                <p
-                    class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+
+                <h2></h2>
+
+                <div
+                    class="block max-w-md p-2 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                 >
-                    {t("home.computer_engineer")}
-                </p>
+                    <p>{t("home.currently")}</p>
+                    <h5
+                        class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        {t("home.currentposition")}
+                    </h5>
+                </div>
+
+                <div class="pe-5 text-xl my-3">
+                    {
+                        t("home.description").map((line: string) => (
+                            <p class="text-gray-500 dark:text-gray-400">
+                                {line}
+                            </p>
+                        ))
+                    }
+                </div>
+
+                <div
+                    class="w-full flex items-center justify-center md:items-start md:justify-start"
+                >
+                    <a
+                        href="mailto:crhistianbetetanavarro@gmail.com"
+                        class="inline-flex px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-md
+          transform hover:scale-105 hover:shadow-lg transition-all duration-300 animate-pulse text-3xl"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-9"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                            ></path>
+                        </svg>
+
+                        <p class="pl-2">{t("home.contactme")}</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="md:col-span-4">
+                <div
+                    class="rounded-2xl shadow-lg bg-indigo-500 overflow-hidden max-w-[400px] md:rotate-3 md:hover:rotate-0 md:hover:bg-indigo-700 transition-all duration-500"
+                >
+                    <img
+                        src="/me.png"
+                        class="drop-shadow-md w-full h-auto block"
+                        alt="Crhistian Beteta"
+                    />
+                </div>
             </div>
         </div>
     </section>
