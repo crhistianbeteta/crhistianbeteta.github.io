@@ -17,7 +17,19 @@ const t = useTranslations(lang);
                     Crhistian Beteta
                 </h1>
 
-                <h2></h2>
+                <div
+                    class="col-span-4 md:hidden my-2 flex items-center justify-center"
+                >
+                    <div
+                        class="rounded-2xl shadow-lg bg-indigo-500 overflow-hidden max-w-[150px]"
+                    >
+                        <img
+                            src="/me.png"
+                            class="drop-shadow-md w-full h-auto block"
+                            alt="Crhistian Beteta"
+                        />
+                    </div>
+                </div>
 
                 <div
                     class="block max-w-md p-2 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
@@ -69,7 +81,7 @@ const t = useTranslations(lang);
             </div>
 
             <!-- Imagen -->
-            <div class="md:col-span-4">
+            <div class="hidden md:block md:col-span-4">
                 <div
                     class="rounded-2xl shadow-lg bg-indigo-500 overflow-hidden max-w-[400px] md:rotate-3 md:hover:rotate-0 md:hover:bg-indigo-700 transition-all duration-500"
                 >
